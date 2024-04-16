@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.gamecontainer{
+    margin: auto;
+    text-align: center;
+}
+
+.gameboard{
+    
+    
+      display: grid;
+      grid-template-columns:auto auto auto;
+      width: 308px;
+      border: solid 2px black;
+        margin: auto;
+
+      
+}
+
+.grid-items{
+    border: solid 2px black;
+    width:100px;
+    height:100px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 4rem;
+    text-align: center;
+    gap: 0;
+}
+
+h1,button,h2{
+    margin: 30px;
+}
+
+.reset{
+    background: none;
+    padding: 20px;
+    border-radius: 9em;
+    font-size: 20px;;
+}
+
